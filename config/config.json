@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "cicd-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/cicd/CicdWebPart.js",
+          "manifest": "./src/webparts/cicd/CicdWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "CicdWebPartStrings": "lib/webparts/cicd/loc/{locale}.js"
+  }
+}
